@@ -3,4 +3,6 @@ class Hero < ApplicationRecord
   validates :name, presence: true
   # coloca os heróis em ordem alfabetica
   scope :sorted_by_name, -> { order(:name) }
+  # busca os heróis com o term mandado na url
+  scope :search, ->(term) { where('LOWER(name) LIKE ?', "%#{term.downcase}%") if term.presente? }
 end

@@ -4,7 +4,7 @@ class Api::HeroesController < ApplicationController
   # GET /heroes
   def index
     # coloca os nomes dos heróis em ordem alfabetica
-    @heroes = Hero.all.sorted_by_name
+    @heroes = Hero.search(params[:term]).sorted_by_name
 
     render json: @heroes
   end
