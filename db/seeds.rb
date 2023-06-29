@@ -9,6 +9,6 @@
 Hero.delete_all
 
 # cria 5 heróis no banco de dados usando a gem 'Faker' para gerar nomes aleatórios de heróis
-5.times do
+10.times do
   Hero.create name: Faker::Superhero.name
 end
