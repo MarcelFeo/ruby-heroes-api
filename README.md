@@ -3,11 +3,11 @@
 </p>
 
 
-# Projeto Ruby Heroes API
+# Projeto Ruby Heroes API 📚
 
 Este é um projeto de uma API desenvolvida em Ruby on Rails que permite armazenar e gerenciar nomes de super-heróis. Através dessa API, você pode criar, atualizar, visualizar e excluir heróis do banco de dados.
 
-## Bibliotecas utilizadas
+## Bibliotecas utilizadas 🧰
 
 O projeto utiliza as seguintes bibliotecas para diferentes finalidades:
 
@@ -17,7 +17,7 @@ O projeto utiliza as seguintes bibliotecas para diferentes finalidades:
 
 3. **SimpleCov**: Uma ferramenta de cobertura de código que mede a quantidade de código testado por seus testes automatizados. O SimpleCov é usado para verificar a cobertura de código dos testes no projeto, identificando partes do código que não estão sendo testadas adequadamente.
 
-## Como instalar o projeto
+## Como instalar o projeto 💻
 
 Siga as instruções abaixo para instalar e executar o projeto localmente:
 
