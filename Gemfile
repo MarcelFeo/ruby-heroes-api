@@ -48,3 +48,9 @@ group :development do
 end
 
 gem "active_model_serializers", "~> 0.10.13"
+
+gem "rspec-rails", "~> 6.0"
+
+gem "shoulda-matchers", "~> 5.3"
+
+gem "simplecov",  "~> 0.22.0", require: false
