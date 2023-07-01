@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="logo-hero-api.png" alt="Descrição da imagem">
+</p>
+
+
 # Projeto Ruby Heroes API
 
 Este é um projeto de uma API desenvolvida em Ruby on Rails que permite armazenar e gerenciar nomes de super-heróis. Através dessa API, você pode criar, atualizar, visualizar e excluir heróis do banco de dados.
